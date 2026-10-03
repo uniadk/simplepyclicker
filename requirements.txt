@@ -1,0 +1,4 @@
+# Windows only. Current pywin32 releases publish wheels per CPython version
+# and require Python 3.9 or newer. keyboard 0.13.5 is the current release.
+pywin32
+keyboard==0.13.5

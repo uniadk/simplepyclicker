@@ -39,11 +39,11 @@ def clicker(): # Clicker function
                 click(positionx, positiony)
                 time.sleep(0.1) # 10cps = 0.1, 20cps = 0.05
                 if isPressedB():
-                    setTitle("Clicker is Innactive")
+                    setTitle("Clicker is Inactive")
                     break
                 else: continue
 
-setTitle("Clicker is Innactive")
+setTitle("Clicker is Inactive")
 print("Clicker")
 print("Hold to enable/disable")
 print("Q = Enable")
